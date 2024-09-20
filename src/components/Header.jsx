@@ -1,13 +1,12 @@
-import React from 'react'
+// import React from 'react';
 
 export const Header = () => {
   return (
-
     <header className="header-container">
       <div className="header-content">
-        <div className="tittle">
+        <div className="title">
           <h2>
-          <a href='/'>Where is My Country</a>
+            <a href="/">Where is My Country</a>
           </h2>
         </div>
         <p className="theme-changer">
@@ -16,6 +15,5 @@ export const Header = () => {
         </p>
       </div>
     </header>
-
-    )
-}
+  );
+};
